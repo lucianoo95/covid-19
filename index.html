@@ -13,22 +13,27 @@
 
 <body class="">
   <div class="container mt-3 mx-auto">
-    <h4 class="text-center text-dark font-italic">Daily Info</h4>
+    <h3 class="text-center text-dark font-italic"><u>Daily info: Covid-19</u></h3>
     <hr>
 
-    <div class="card text-left col-12 mx-auto mt-5">
 
-      <script type="text/javascript" src="https://embed.thevirustracker.com/embed.js"></script>
-      <div class="thevirustracker-widget col-3 mt-3 mb-3 ml-0 mr-0 bg-white" data-ccountryid="AR" data-base="ALLDATA">
-      </div>
 
-      <table class="d-inline-block col-9 float-right">
-        <thead>
-          <th>Hola</th>
+
+    <div class="col-12 float-right">
+      <h4 class="font-italic mb-3">All stats.</h4>
+      <table class="table table-bordered table-hover table-sm shadow font-italic small">
+        <thead id="thead">
         </thead>
+        <tbody id="tbody"></tbody>
       </table>
-
     </div>
+
+    <script type="text/javascript" src="https://embed.thevirustracker.com/embed.js"></script>
+    <div class="row">
+      <div class="thevirustracker-widget col-4 mx-auto mt-3" data-ccountryid="AR" data-base="ALLDATA">
+      </div>
+    </div>
+
   </div>
   </div>
 
